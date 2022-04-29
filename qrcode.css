@@ -1,8 +1,11 @@
 body{
+    display:flex;
     text-align: center;
     padding: 50px 250px;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 
 img{
@@ -13,8 +16,8 @@ img{
 
 .text{
     font-weight: 700;
-    font-size: 1.5vw;
-    text-size-adjust: auto;
+    font-size: 1.5rem;
+    /* text-size-adjust: auto; */
     padding: 15px;
     padding-bottom: 0px;
     
@@ -29,20 +32,19 @@ img{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    max-width: 50%;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    min-width: fit-content;
-    max-height: fit-content;
+    
+    min-width: max-content;
+    
 }
 
 .subtext{
     margin-top: 0px;
     text-size-adjust: auto;
-    font-size: 1vw;
+    font-size: 1rem;
     font-weight: 400;
-    text-size-adjust: auto;
+    /* text-size-adjust: auto; */
     
 }
 
